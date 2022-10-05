@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32519.111
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HS2_CharaLoader", "HS2\HS2_CharaLoader.csproj", "{9A50BADA-6693-45EB-9277-115977606B1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AIHS2", "AIHS2", "{03E16342-B070-4367-AD31-5BA9EB81B552}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI_CharaLoader", "AI\AI_CharaLoader.csproj", "{3AB52BDF-6FC8-4157-B1AE-E224415AA9D6}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Common", "Common\Common.shproj", "{A79C3544-87FE-44B9-AD33-1B7E26CADFF6}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "Shared\Shared.shproj", "{77BB3853-ECD1-4081-9889-FBCA6D6EF7A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A50BADA-6693-45EB-9277-115977606B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A50BADA-6693-45EB-9277-115977606B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A50BADA-6693-45EB-9277-115977606B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A50BADA-6693-45EB-9277-115977606B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AB52BDF-6FC8-4157-B1AE-E224415AA9D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB52BDF-6FC8-4157-B1AE-E224415AA9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB52BDF-6FC8-4157-B1AE-E224415AA9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB52BDF-6FC8-4157-B1AE-E224415AA9D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A50BADA-6693-45EB-9277-115977606B1C} = {03E16342-B070-4367-AD31-5BA9EB81B552}
+		{3AB52BDF-6FC8-4157-B1AE-E224415AA9D6} = {03E16342-B070-4367-AD31-5BA9EB81B552}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D633C844-F73B-4B98-AE8C-41E7B381ACD2}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Common\Common.projitems*{3ab52bdf-6fc8-4157-b1ae-e224415aa9d6}*SharedItemsImports = 4
+		Shared\Shared.projitems*{3ab52bdf-6fc8-4157-b1ae-e224415aa9d6}*SharedItemsImports = 4
+		Shared\Shared.projitems*{77bb3853-ecd1-4081-9889-fbca6d6ef7a2}*SharedItemsImports = 13
+		Common\Common.projitems*{9a50bada-6693-45eb-9277-115977606b1c}*SharedItemsImports = 4
+		Shared\Shared.projitems*{9a50bada-6693-45eb-9277-115977606b1c}*SharedItemsImports = 4
+		Common\Common.projitems*{a79c3544-87fe-44b9-ad33-1b7e26cadff6}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
